@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Admin</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/orders.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="images/Logo.png" />
+            <h2>EMPRISE<span>NAME</span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="index.html">
+            <span class="material-icons-sharp">dashboard</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="customers.html">
+            <span class="material-icons-sharp">person_outline</span>
+            <h3>Customers</h3>
+          </a>
+          <a href="orders.html" class="active">
+            <span class="material-icons-sharp">receipt_long</span>
+            <h3>Orders</h3>
+          </a>
+          <a href="analytics.html">
+            <span class="material-icons-sharp">insights</span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="staff.html">
+            <span class="material-icons-sharp">groups</span>
+            <h3 id="aaaaa">Staff team</h3>
+          </a>
+          <a href="products.html">
+            <span class="material-icons-sharp">inventory</span>
+            <h3>Products</h3>
+          </a>
+          <a href="reports.html">
+            <span class="material-icons-sharp">report_gmailerrorred</span>
+            <h3>Reports</h3>
+          </a>
+          <a href="settings.html">
+            <span class="material-icons-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="addproduct.html">
+            <span class="material-icons-sharp">add</span>
+            <h3>Add Product</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- END OF ASIDE -->
+      <main>
+        <h1><span class="material-icons-sharp">receipt</span> Orders</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+
+        <div class="insights">
+          <div class="product">
+            <img class="imguser" src="https://images.kabum.com.br/produtos/fotos/309501/pc-gamer-skul-3000-intel-quad-core-i3-10100f-rgb-amd-radeon-rx-550-8gb-ddr4-ssd-240gb-linux-preto-g4704-120630_1644605124_original.jpg" alt="">
+            <div class="middle">
+              <div class="left">
+                <h3>Product</h3>
+                <h1>Informations</h1>
+                <p><b>Name:</b> {Name}</b></p>
+                <p><b>ID Prod:</b> {ID}</p>
+                <p><b>Value:</b> {value}</p>
+                <p><b>Buyer:</b> {buyer}</p>
+                <br>
+                <div class="item add-product">
+                    <div>
+                      <h3>Allow</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <p><b>Status</b></p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ALLOW -->
+
+          <div class="product">
+            <img class="imguser" src="https://images.kabum.com.br/produtos/fotos/309501/pc-gamer-skul-3000-intel-quad-core-i3-10100f-rgb-amd-radeon-rx-550-8gb-ddr4-ssd-240gb-linux-preto-g4704-120630_1644605124_original.jpg" alt="">
+            <div class="middle">
+              <div class="left">
+                <h3>Product</h3>
+                <h1>Informations</h1>
+                <p><b>Name:</b> {Name}</b></p>
+                <p><b>ID Prod:</b> {ID}</p>
+                <p><b>Value:</b> {value}</p>
+                <p><b>Buyer:</b> {buyer}</p>
+                <br>
+                <div class="item add-product">
+                    <div>
+                      <h3>Allow</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <p><b>Status</b></p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ALLOW -->
+
+          <div class="product">
+            <img class="imguser" src="https://images.kabum.com.br/produtos/fotos/309501/pc-gamer-skul-3000-intel-quad-core-i3-10100f-rgb-amd-radeon-rx-550-8gb-ddr4-ssd-240gb-linux-preto-g4704-120630_1644605124_original.jpg" alt="">
+            <div class="middle">
+              <div class="left">
+                <h3>Product</h3>
+                <h1>Informations</h1>
+                <p><b>Name:</b> {Name}</b></p>
+                <p><b>ID Prod:</b> {ID}</p>
+                <p><b>Value:</b> {value}</p>
+                <p><b>Buyer:</b> {buyer}</p>
+                <br>
+                <div class="item add-product">
+                    <div>
+                      <h3>Allow</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <p><b>Status</b></p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ALLOW -->
+
+          <div class="product">
+            <img class="imguser" src="https://images.kabum.com.br/produtos/fotos/309501/pc-gamer-skul-3000-intel-quad-core-i3-10100f-rgb-amd-radeon-rx-550-8gb-ddr4-ssd-240gb-linux-preto-g4704-120630_1644605124_original.jpg" alt="">
+            <div class="middle">
+              <div class="left">
+                <h3>Product</h3>
+                <h1>Informations</h1>
+                <p><b>Name:</b> {Name}</b></p>
+                <p><b>ID Prod:</b> {ID}</p>
+                <p><b>Value:</b> {value}</p>
+                <p><b>Buyer:</b> {buyer}</p>
+                <br>
+                <div class="item add-product">
+                    <div>
+                      <h3>Allow</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <p><b>Status</b></p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ALLOW -->
+
+          <div class="product">
+            <img class="imguser" src="https://images.kabum.com.br/produtos/fotos/309501/pc-gamer-skul-3000-intel-quad-core-i3-10100f-rgb-amd-radeon-rx-550-8gb-ddr4-ssd-240gb-linux-preto-g4704-120630_1644605124_original.jpg" alt="">
+            <div class="middle">
+              <div class="left">
+                <h3>Product</h3>
+                <h1>Informations</h1>
+                <p><b>Name:</b> {Name}</b></p>
+                <p><b>ID Prod:</b> {ID}</p>
+                <p><b>Value:</b> {value}</p>
+                <p><b>Buyer:</b> {buyer}</p>
+                <br>
+                <div class="item add-product">
+                    <div>
+                      <h3>Allow</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <p><b>Status</b></p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ALLOW -->
+
+          
+        </div>
+
+        <div class="recent-orders">
+          <h2>Pending Products</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product ID</th>
+                <th>Buyer</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Personal Computer</td>
+                <td>4523</td>
+                <td>Wescley Araújo</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>????</td>
+                <td>User</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Allow</td>
+              </tr>
+        
+            </tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+      </main>
+      <!-- End of Main-->
+
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div class="theme-toggler" id="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Wescley</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+              <img src="images/Perfil.png" />
+            </div>
+          </div>
+        </div>
+        <!-- END OF TOP-->
+        <div class="recent-updates">
+          <h2>Recents updates</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="images/Mikey.jpg" />
+              </div>
+              <div class="message">
+                <p><b>User One</b> received his order of Product.</p>
+                <small class="text-muted">7 Minutes Ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="profile-photo">
+                <img src="images/lamelo.jpg" />
+              </div>
+              <div class="message">
+                <p><b>User Two</b> received his order of Product 2.</p>
+                <small class="text-muted">3 Minutes Ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="profile-photo">
+                <img src="images/bronny.jpg" />
+              </div>
+              <div class="message">
+                <p><b>User Five</b> received his order of Product 10.</p>
+                <small class="text-muted">1 Minutes Ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END OF Recent UPDATES -->
+        <div class="sales-analytics">
+          <h2>Orders Analytics</h2>
+          <div class="item online">
+            <div class="icon">
+              <span class="material-icons-sharp">pending</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>WAITING</h3>
+                <small class="text-muted">Las 24 Hours</small>
+              </div>
+              <h5 class="success">+39%</h5>
+              <h3>3849</h3>
+            </div>
+          </div>
+          <div class="item offline">
+            <div class="icon">
+              <span class="material-icons-sharp">close</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>DENNIED</h3>
+                <small class="text-muted">Las 24 Hours</small>
+              </div>
+              <h5 class="danger">-20%</h5>
+              <h3>1452</h3>
+            </div>
+          </div>
+          <div class="item customers">
+            <div class="icon">
+              <span class="material-icons-sharp">done</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>APROVED</h3>
+                <small class="text-muted">Las 24 Hours</small>
+              </div>
+              <h5 class="success">+25%</h5>
+              <h3>900</h3>
+            </div>
+          </div>
+          <div class="item add-product">
+            <div>
+              <span class="material-icons-sharp">delete</span>
+              <h3>Remove Order</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

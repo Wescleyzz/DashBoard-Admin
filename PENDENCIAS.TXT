@@ -1,0 +1,14 @@
+--------- BASE ---------
+
+- products.html
+- settings.html
+- reports.html
+- analytics.html
+- addproduct.html
+- staff.html
+
+--------- ADMIN MASTER ---------
+
+
+
+- staffadd.html

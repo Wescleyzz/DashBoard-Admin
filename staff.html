@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Customers</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/customers.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="images/Logo.png" />
+            <h2>EMPRISE<span>NAME</span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="index.html">
+            <span class="material-icons-sharp">dashboard</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="customers.html">
+            <span class="material-icons-sharp">person_outline</span>
+            <h3>Customers</h3>
+          </a>
+          <a href="orders.html">
+            <span class="material-icons-sharp">receipt_long</span>
+            <h3>Orders</h3>
+          </a>
+          <a href="analytics.html">
+            <span class="material-icons-sharp">insights</span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="staff.html" class="active">
+            <span class="material-icons-sharp">groups</span>
+            <h3 id="aaaaa">Staff team</h3>
+          </a>
+          <a href="products.html">
+            <span class="material-icons-sharp">inventory</span>
+            <h3>Products</h3>
+          </a>
+          <a href="reports.html">
+            <span class="material-icons-sharp">report_gmailerrorred</span>
+            <h3>Reports</h3>
+          </a>
+          <a href="settings.html">
+            <span class="material-icons-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="addproduct.html">
+            <span class="material-icons-sharp">add</span>
+            <h3>Add Product</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- END OF ASIDE -->
+      <main>
+        <h1><span class="material-icons-sharp">groups</span> Staff Team</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+
+        <div class="insights">
+          <div class="user">
+            <img class="imguser" src="images/bronny.jpg" alt="">
+            <div class="middle">
+                <div class="left">
+                  <h3>Staffer</h3>
+                  <h1>Informations</h1>
+                  <p><b>Name:</b> {Name}</b></p>
+                  <p><b>Staff ID:</b> {StaffID}</p>
+                  <p><b>Group:</b> {group}</p>
+                  <p><b>Status:</b> {status}</p>
+                  <br>
+                  <p class="danger removesbtn">Remove <b>|</b> <b class="primary detailsbtn"> Config</b></p>
+                </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <B>{GROUP}</B>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ADM -->
+
+          <div class="user">
+            <img class="imguser" src="images/bronny.jpg" alt="">
+            <div class="middle">
+                <div class="left">
+                  <h3>Staffer</h3>
+                  <h1>Informations</h1>
+                  <p><b>Name:</b> {Name}</b></p>
+                  <p><b>Staff ID:</b> {StaffID}</p>
+                  <p><b>Group:</b> {group}</p>
+                  <p><b>Status:</b> {status}</p>
+                  <br>
+                  <p class="danger removesbtn">Remove <b>|</b> <b class="primary detailsbtn"> Config</b></p>
+                </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <B>{GROUP}</B>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ADM -->
+
+          <div class="user">
+            <img class="imguser" src="images/bronny.jpg" alt="">
+            <div class="middle">
+                <div class="left">
+                  <h3>Staffer</h3>
+                  <h1>Informations</h1>
+                  <p><b>Name:</b> {Name}</b></p>
+                  <p><b>Staff ID:</b> {StaffID}</p>
+                  <p><b>Group:</b> {group}</p>
+                  <p><b>Status:</b> {status}</p>
+                  <br>
+                  <p class="danger removesbtn">Remove <b>|</b> <b class="primary detailsbtn"> Config</b></p>
+                </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="0" cy="0" r="0"></circle>
+                </svg>
+                <div class="number">
+                  <B>{GROUP}</B>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 Hours</small>
+          </div>
+          <!-- END OF ADM -->
+
+        </div>
+
+        <div class="recent-orders">
+          <h2>Staff List</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Staff ID</th>
+                <th>Level</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Wescley Araujo</td>
+                <td>0000</td>
+                <td><b>{GROUP}</b></td>
+                <td class="success">Online</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 01</td>
+                <td>0001</td>
+                <td><b>{GROUP}</b></td>
+                <td class="success">Online</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 02</td>
+                <td>0002</td>
+                <td><b>{GROUP}</b></td>
+                <td class="warning">Absent</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 03</td>
+                <td>0003</td>
+                <td><b>{GROUP}</b></td>
+                <td class="danger">Blocked</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 04</td>
+                <td>0004</td>
+                <td><b>{GROUP}</b></td>
+                <td class="success">Online</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 05</td>
+                <td>0005</td>
+                <td><b>{GROUP}</b></td>
+                <td class="dark">Offline</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 06</td>
+                <td>0006</td>
+                <td><b>{GROUP}</b></td>
+                <td class="warning">Absent</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>User 07</td>
+                <td>0007</td>
+                <td><b>{GROUP}</b></td>
+                <td class="dark">Offline</td>
+                <td class="primary">Details</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <a href="#">Show All</a>
+        </div>
+      </main>
+      <!-- End of Main-->
+
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div class="theme-toggler" id="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Wescley</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+              <img src="images/Perfil.png" />
+            </div>
+          </div>
+        </div>
+        <!-- END OF TOP-->
+        <div class="recent-updates">
+          <h2>Recents updates</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="images/Mikey.jpg" />
+              </div>
+              <div class="message">
+                <p><b>User One</b> received his order of Product.</p>
+                <small class="text-muted">7 Minutes Ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="profile-photo">
+                <img src="images/lamelo.jpg" />
+              </div>
+              <div class="message">
+                <p><b>User Two</b> received his order of Product 2.</p>
+                <small class="text-muted">3 Minutes Ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="profile-photo">
+                <img src="images/bronny.jpg" />
+              </div>
+              <div class="message">
+                <p><b>User Five</b> received his order of Product 10.</p>
+                <small class="text-muted">1 Minutes Ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END OF Recent UPDATES -->
+        <div class="sales-analytics">
+          <h2>Sales Analytics</h2>
+          <div class="item online">
+            <div class="icon">
+              <span class="material-icons-sharp">shopping_cart</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>ONLINE ORDERS</h3>
+                <small class="text-muted">Las 24 Hours</small>
+              </div>
+              <h5 class="success">+39%</h5>
+              <h3>3849</h3>
+            </div>
+          </div>
+          <div class="item offline">
+            <div class="icon">
+              <span class="material-icons-sharp">local_mall</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>OFFLINE ORDERS</h3>
+                <small class="text-muted">Las 24 Hours</small>
+              </div>
+              <h5 class="danger">-20%</h5>
+              <h3>1452</h3>
+            </div>
+          </div>
+          <div class="item customers">
+            <div class="icon">
+              <span class="material-icons-sharp">person_outline</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>NEW CUSTOMERS</h3>
+                <small class="text-muted">Las 24 Hours</small>
+              </div>
+              <h5 class="success">+25%</h5>
+              <h3>900</h3>
+            </div>
+          </div>
+          <div class="item add-product">
+            <div>
+              <span class="material-icons-sharp">add</span>
+              <h3>Add Staffer</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
