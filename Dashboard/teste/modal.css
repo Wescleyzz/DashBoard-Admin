@@ -1,0 +1,91 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.modal .cardmodal {
+    background: white;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.modal .cardmodal #close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.3rem;
+}
+
+.modal .cardmodal .brand {
+    width: 30rem;
+}
+
+.modal .cardmodal .brand img {
+    display: block;
+    width: 100%;
+}
+
+.modal .cardmodal h2 {
+    margin-bottom: 2rem;
+}
+
+.modal .cardmodal form {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal .cardmodal input[type="email"] {
+    background: #eee;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+}
+
+.modal .cardmodal input[type="submit"] {
+    background: #167600;
+    color: whitesmoke;
+    padding: 0 1.6rem;
+}
+
+@media  screen and (max-width: 800px) {
+    .modal .cardmodal {
+        flex-direction: column;
+        width: 80vw;
+        text-align: center;
+    }
+    
+    .modal .cardmodal .brand {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 4rem;
+    }
+
+    .modal .cardmodal form {
+        display: block;
+    }
+
+    .modal .cardmodal form input[type="email"],
+    .modal .cardmodal input[type="email"]::placeholder {
+        text-align: center;
+    }
+
+    .modal .cardmodal form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
+        margin-top: 0.6rem;
+    }
+}
